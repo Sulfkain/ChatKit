@@ -114,6 +114,15 @@ public class MessageInput extends RelativeLayout
     public ImageButton getButton() {
         return messageSendButton;
     }
+    
+    /**
+    * Returns `attach' button
+    *
+    * @return ImageButton
+    */
+    public ImageButton getAttachButton() {
+        return attachmentButton;
+    }
 
     @Override
     public void onClick(View view) {
